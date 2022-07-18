@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Lobster&family=Roboto&display=swap');
+
+.container{
+    background: rgb(245, 245, 245);
+    margin: auto;
+    max-width: 850px;
+    font-family: 'Lobster', sans-serif;
+}
+
+h1{
+    text-align: left;
+    padding: 10px;
+}
+
+@media(max-width: 500px){
+    h1{
+        text-align: center;
+    }
+}
+
+.hobbies h3, .work h3, .info-text h3{
+    border-left: 7px solid;
+    border-color: rgb(237, 113, 56);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+}
+
+.information{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+  }
+
+
+.info-text p{
+    font-size: 20px;
+    color: rgb(191, 194, 194);
+}
+
+.info-text a{
+    font-size: 20px;
+}
+
+a{
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+a:visited{
+    color: #17915e94;
+}
+
+.avatar{
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 25%;
+    height: 25%;
+    margin-right: 40px;
+}
+
+@media(max-width: 500px){
+    .avatar{
+        width: 50%;
+        height: 50%;
+        margin: 10px auto;
+    }
+}
+
+@media(max-width: 500px){
+    .information{
+        text-align: center;
+        display: block;
+    }
+}
+
+.hobbies{
+    margin: 10px 10px;
+}
+
+hr{
+    width: 80%;
+}
+
+.work{
+    margin: 10px 10px;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    background: rgb(237, 113, 56);  
+    cursor: pointer;   
+    color: white;
+    padding: 10px;
+    font-family: 'Lobster', sans-serif;
+    width: 150px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    
+}
+
+.list{
+    list-style: none;
+    
+}
+
+.list li {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.table{
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+}
+
+.table tr, td{
+    text-align: center;
+    padding: 10px;
+}
+
+.table tr:nth-child(1){
+    background: #eee;
+    font-weight: bold;
+}
+
+.table tr:nth-child(2){
+    background: lightgreen;
+}
+
+.table tr:nth-child(3){
+    background: lightyellow;
+}
+
+.connection{
+    background: inherit;
+    border-radius: 10px;
+    padding: 10px;   
+}
+
+label{
+    color: lightslategray;
+    font-size: 25px;
+}
+
+.input{
+    background: inherit;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.box_of_connect{
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+
+.connection h3{
+    text-align: center;
+    font-size: 30px;
+    color: lightslategray;
+
+}
